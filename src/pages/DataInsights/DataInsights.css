@@ -1,0 +1,69 @@
+.data-insights-page {
+    margin-top: 45px;
+    padding: var(--sp-8) 0 var(--sp-16);
+    background: var(--color-bg);
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-6);
+}
+
+.insight-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.insight-card.full-width {
+    grid-column: 1 / -1;
+}
+
+.chart-header {
+    margin-bottom: var(--sp-4);
+    padding-bottom: var(--sp-3);
+    border-bottom: 1px solid var(--color-gray-100);
+}
+
+.chart-header h3 {
+    font-size: var(--fs-lg);
+    color: var(--color-gray-800);
+    margin-bottom: 2px;
+}
+
+.chart-header p {
+    font-size: var(--fs-sm);
+    color: var(--color-gray-500);
+}
+
+.chart-container {
+    flex: 1;
+    width: 100%;
+}
+
+/* Recharts Customization */
+.recharts-cartesian-axis-tick-value {
+    font-family: var(--font-body);
+    fill: var(--color-gray-500);
+}
+
+.recharts-tooltip-wrapper {
+    z-index: 100;
+}
+
+.recharts-default-tooltip {
+    border-radius: var(--radius-sm) !important;
+    border: none !important;
+    box-shadow: var(--shadow-md) !important;
+    font-family: var(--font-body);
+}
+
+@media (max-width: 900px) {
+    .insights-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .insight-card.full-width {
+        grid-column: span 1;
+    }
+}

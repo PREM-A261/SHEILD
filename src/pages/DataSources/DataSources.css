@@ -1,0 +1,72 @@
+.datasources-page {
+    margin-top: 45px;
+    padding: var(--sp-8) 0 var(--sp-16);
+    background: var(--color-bg);
+    min-height: calc(100vh - var(--navbar-height));
+}
+
+.sources-container {
+    padding: 0;
+    overflow: hidden;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.sources-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.sources-table th {
+    background: var(--color-gray-50);
+    padding: var(--sp-4) var(--sp-6);
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-gray-500);
+    border-bottom: 2px solid var(--color-gray-200);
+    white-space: nowrap;
+}
+
+.sources-table td {
+    padding: var(--sp-4) var(--sp-6);
+    border-bottom: 1px solid var(--color-gray-100);
+    vertical-align: top;
+}
+
+.sources-table tr:last-child td {
+    border-bottom: none;
+}
+
+.sources-table tr:hover td {
+    background: var(--color-gray-50);
+}
+
+.ds-name {
+    font-size: var(--fs-base);
+    font-weight: var(--fw-semibold);
+    color: var(--color-gray-900);
+    margin-bottom: var(--sp-1);
+}
+
+.ds-desc {
+    font-size: var(--fs-sm);
+    color: var(--color-gray-500);
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+.ds-provider {
+    font-size: var(--fs-sm);
+    color: var(--color-gray-800);
+    font-weight: var(--fw-medium);
+}
+
+.ds-date {
+    font-size: var(--fs-sm);
+    color: var(--color-gray-500);
+    white-space: nowrap;
+}

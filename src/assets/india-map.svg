@@ -1,0 +1,51 @@
+<svg viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:0.08"/>
+    </linearGradient>
+    <filter id="mapShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2563eb" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- India outline simplified -->
+  <g transform="translate(40, 10)" filter="url(#mapShadow)">
+    <path d="M150 5 C140 8 125 12 115 20 L105 28 C95 35 88 42 82 52 L75 65 C70 75 62 82 55 90 L45 105 C38 115 30 125 25 138 L18 155 C12 170 8 185 5 200 L3 215 C2 230 5 245 10 258 L15 270 C20 280 28 290 35 298 L42 305 C48 312 55 320 65 328 L78 338 C88 345 95 350 105 358 L118 368 C125 372 130 378 138 385 L148 395 C155 400 160 405 168 408 L178 412 C185 415 192 415 200 412 L210 408 C218 402 225 395 232 388 L240 378 C245 370 252 362 258 352 L265 340 C270 330 278 320 285 310 L292 298 C298 288 305 278 310 265 L315 250 C320 238 322 225 325 210 L328 195 C330 182 332 168 330 155 L328 142 C325 130 320 118 312 108 L302 95 C295 85 288 78 278 70 L268 62 C258 55 248 48 238 42 L228 35 C218 28 208 22 198 18 L188 12 C178 8 168 5 158 5 Z"
+          fill="url(#mapGrad)" stroke="#2563eb" stroke-width="2" stroke-opacity="0.4"/>
+    <!-- Kashmir region -->
+    <path d="M150 5 L145 0 L135 2 L125 8 L118 15 L115 20" fill="url(#mapGrad)" stroke="#2563eb" stroke-width="1.5" stroke-opacity="0.4"/>
+    <!-- State boundaries (simplified) -->
+    <line x1="80" y1="120" x2="250" y2="120" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="60" y1="180" x2="280" y2="180" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="40" y1="240" x2="300" y2="240" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="100" y1="300" x2="260" y2="300" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="180" y1="50" x2="180" y2="400" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.15"/>
+    <line x1="120" y1="80" x2="120" y2="350" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.15"/>
+    <line x1="240" y1="80" x2="240" y2="330" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.15"/>
+    <!-- Risk hotspot dots -->
+    <circle cx="130" cy="100" r="6" fill="#f43f5e" opacity="0.7">
+      <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="150" r="5" fill="#f97316" opacity="0.6">
+      <animate attributeName="r" values="4;7;4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="200" r="7" fill="#f43f5e" opacity="0.7">
+      <animate attributeName="r" values="6;9;6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="180" r="5" fill="#f97316" opacity="0.6">
+      <animate attributeName="r" values="4;7;4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="260" r="4" fill="#14b8a6" opacity="0.6">
+      <animate attributeName="r" values="3;6;3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="280" r="6" fill="#f43f5e" opacity="0.7">
+      <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="350" r="4" fill="#14b8a6" opacity="0.5">
+      <animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="180" r="3" fill="#8b5cf6" opacity="0.5">
+      <animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #3F51B5;
+  --color-primary-dark: #303F9F;
+  --color-primary-light: #5C6BC0;
+  --color-primary-bg: #E8EAF6;
+
+  /* Secondary - Teal */
+  --color-secondary: #009688;
+  --color-secondary-dark: #00796B;
+  --color-secondary-light: #4DB6AC;
+  --color-secondary-bg: #E0F2F1;
+
+  /* Accent - Orange */
+  --color-accent: #FF9800;
+  --color-accent-dark: #F57C00;
+  --color-accent-light: #FFB74D;
+  --color-accent-bg: #FFF3E0;
+
+  /* Risk Scale */
+  --risk-low: #4CAF50;
+  --risk-low-bg: #E8F5E9;
+  --risk-moderate: #FFC107;
+  --risk-moderate-bg: #FFF8E1;
+  --risk-high: #FF9800;
+  --risk-high-bg: #FFF3E0;
+  --risk-critical: #F44336;
+  --risk-critical-bg: #FFEBEE;
+
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-bg: #F5F7FA;
+  --color-gray-50: #FAFBFC;
+  --color-gray-100: #F1F3F5;
+  --color-gray-200: #E9ECEF;
+  --color-gray-300: #DEE2E6;
+  --color-gray-400: #ADB5BD;
+  --color-gray-500: #6C757D;
+  --color-gray-600: #495057;
+  --color-gray-700: #343A40;
+  --color-gray-800: #212529;
+  --color-gray-900: #0D1117;
+
+  /* Typography */
+  --font-heading: 'Poppins', 'Inter', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.25rem;
+  --fs-5xl: 3rem;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* Spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+  --sp-20: 80px;
+
+  /* Layout */
+  --max-width: 1200px;
+  --section-gap: 24px;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.14);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Navbar */
+  --navbar-height: 64px;
+}

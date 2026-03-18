@@ -1,0 +1,12 @@
+const datasets = [
+    { id: 1, name: "Census of India 2021", provider: "Office of the Registrar General", description: "Comprehensive population census including sex ratio, literacy rates, and demographic profiles at district level across all states and union territories.", last_updated: "2024-08-15", type: "Census" },
+    { id: 2, name: "National Family Health Survey (NFHS-5)", provider: "Ministry of Health & Family Welfare", description: "Household survey data covering fertility, family planning, infant mortality, maternal health, nutrition, and gender-based indicators.", last_updated: "2024-06-20", type: "Health Survey" },
+    { id: 3, name: "Unified District Information System (UDISE+)", provider: "Ministry of Education", description: "School-level data on enrollment, dropout rates, teacher availability, and infrastructure with gender-disaggregated statistics.", last_updated: "2025-01-10", type: "Education Data" },
+    { id: 4, name: "Periodic Labour Force Survey (PLFS)", provider: "National Statistical Office", description: "Quarterly and annual labor force participation data with gender breakdowns, unemployment rates, and sector-wise employment distribution.", last_updated: "2025-03-01", type: "Employment Data" },
+    { id: 5, name: "National Crime Records Bureau (NCRB)", provider: "Ministry of Home Affairs", description: "Crime statistics including offenses against women, domestic violence cases, trafficking data, and cybercrime complaints at state and district level.", last_updated: "2024-12-15", type: "Crime Statistics" },
+    { id: 6, name: "ICDS & Poshan Tracker", provider: "Ministry of Women & Child Development", description: "Nutritional status data for children and mothers, Anganwadi center coverage, and supplementary nutrition program outcomes.", last_updated: "2025-02-05", type: "Nutrition Data" },
+    { id: 7, name: "Birth & Death Registration Data", provider: "Civil Registration System", description: "Official birth registration data with sex-disaggregated counts, used for computing district-level sex ratios and monitoring trends.", last_updated: "2025-01-20", type: "Vital Statistics" },
+    { id: 8, name: "Demographic & Health Survey (DHS)", provider: "ICF International / IIPS", description: "International standard household survey dataset offering comparable indicators on gender, health, and demographic indicators across regions.", last_updated: "2024-09-10", type: "Health Survey" },
+];
+
+export default datasets;

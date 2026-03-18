@@ -1,0 +1,132 @@
+/* Floating Circular Button */
+.sakhi-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d4a843, #2a9d8f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(184,146,46,0.6);
+  animation: float 4s ease-in-out infinite;
+  z-index: 9999;
+  transition: all 0.4s ease;
+}
+
+.sakhi-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(42,157,143,0.8);
+}
+
+.sakhi-text {
+  position: absolute;
+  bottom: -22px;
+  font-size: 12px;
+  color: #b8922e;
+  font-weight: bold;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Chat Window */
+.sakhi-chat-window {
+  position: fixed;
+  bottom: 120px;
+  right: 30px;
+  width: 320px;
+  height: 420px;
+  background: #0f1923;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(184,146,46,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.4s ease;
+  z-index: 9999;
+}
+
+.sakhi-chat-window.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Header */
+.sakhi-header {
+  background: linear-gradient(135deg, #d4a843, #2a9d8f);
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Body */
+.sakhi-body {
+  flex: 1;
+  padding: 15px;
+  color: white;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+/* Footer */
+.sakhi-footer {
+  padding: 10px;
+  background: #15212e;
+}
+
+.sakhi-footer input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+
+.message {
+  padding: 10px 14px;
+  margin: 8px 0;
+  border-radius: 16px;
+  max-width: 75%;
+  font-size: 14px;
+}
+
+.user {
+  background: #2a9d8f;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.bot {
+  background: #d4a843;
+  color: black;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.sakhi-footer {
+  display: flex;
+  gap: 8px;
+}
+
+.sakhi-footer button {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #d4a843, #2a9d8f);
+  color: white;
+  cursor: pointer;
+}
